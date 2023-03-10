@@ -6,8 +6,9 @@ UI/UX: -mail/password format check before signUp;
        -check if (user is already signed in)
         {
            => ChatApp();
-        }else if (newUser){
-          => SignUpPage();
+        }else if (newUser)
+        {
+              => SignUpPage();
         };
         error handled(
           wrong mail/password,
